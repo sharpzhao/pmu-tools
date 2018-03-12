@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # plot toplev -I... -x, -o ...csv output as bar plot
 #
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import argparse
 import math
